@@ -1,0 +1,10 @@
+BSD::Gettimeofday provides access to the unix gettimeofday & settimeof
+day functions.  You can use these for microsecond time resolution,
+where perl's time() function is only down to the second.
+
+It has been tested on:
+
+NetBSD 1.4X
+FreeBSD 2.2.6
+Linux 2.2.14
+Solaris 2.6
